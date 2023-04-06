@@ -1,0 +1,26 @@
+html,
+body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.submitButton {
+  width: 100px;
+  margin-bottom: 2rem;
+}
+
+.disabledButton {
+  width: 100px;
+}
